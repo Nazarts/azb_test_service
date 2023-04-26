@@ -161,6 +161,9 @@
                                 }
                             }
                         }
+                        else if (status >= 200 && status < 300) {
+                            location.reload();
+                        }
                     })
                 })
             });
